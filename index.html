@@ -6,22 +6,30 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+  <div id="appContainer">
     <button class="startgame">new game</button>
-    <h1>4</h1>
-    <h2>connect</h2>
+    <div class="gameHeader">
+      <h1>4</h1>
+      <h2>connect</h2>
+    </div>
+    
   
-  <div class="playerStatus">
-    <div class="currPlayer" id="playerOne">player one</div>
-  </div>
+  
 
   <div class="gameContainer">
+    <div class="playerStatus">
+      <div class="currPlayer" id="playerOne">player one</div>
+    </div>
     <div id="game">
       <table id="board"></table>
     </div>
   </div>
+  
+   
 
   <script src="connect4.js"></script>
 
